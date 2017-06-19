@@ -1,12 +1,12 @@
-### STAR   --runMode genomeGenerate   --runThreadN 2   --genomeDir REF   --genomeFastaFiles REF/17_7565000-7596000.fasta      --genomeSAindexNbases 12
+### STAR   --runMode genomeGenerate   --runThreadN 2   --genomeDir REF   --genomeFastaFiles REF/17_7572000-7591000.fasta      --genomeSAindexNbases 12   --sjdbGTFfile REF/TP53_small.gtf
 versionGenome	20201
-genomeFastaFiles	REF/17_7565000-7596000.fasta 
+genomeFastaFiles	REF/17_7572000-7591000.fasta 
 genomeSAindexNbases	12
 genomeChrBinNbits	18
 genomeSAsparseD	1
-sjdbOverhang	0
+sjdbOverhang	100
 sjdbFileChrStartEnd	- 
-sjdbGTFfile	-
+sjdbGTFfile	REF/TP53_small.gtf
 sjdbGTFchrPrefix	-
 sjdbGTFfeatureExon	exon
 sjdbGTFtagExonParentTranscript	transcript_id
