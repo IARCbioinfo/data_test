@@ -1,0 +1,14 @@
+### STAR   --runMode genomeGenerate   --runThreadN 2   --genomeDir REF   --genomeFastaFiles REF/17_7565000-7596000.fasta      --genomeSAindexNbases 12
+versionGenome	20201
+genomeFastaFiles	REF/17_7565000-7596000.fasta 
+genomeSAindexNbases	12
+genomeChrBinNbits	18
+genomeSAsparseD	1
+sjdbOverhang	0
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	-
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
