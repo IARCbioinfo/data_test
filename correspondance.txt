@@ -1,0 +1,2 @@
+ID	tumor	normal
+NA06984	NA06984_T.bam	NA06984_N.bam
