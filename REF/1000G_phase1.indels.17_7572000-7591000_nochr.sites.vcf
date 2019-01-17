@@ -1,0 +1,49 @@
+##fileformat=VCFv4.1
+##ALT=<ID=DEL,Description="Deletion">
+##FORMAT=<ID=AC_Orig,Number=1,Type=Integer,Description="Original AC">
+##FORMAT=<ID=AF_Orig,Number=1,Type=Float,Description="Original AF">
+##FORMAT=<ID=AN_Orig,Number=1,Type=Integer,Description="Original AN">
+##FORMAT=<ID=DS,Number=1,Type=Float,Description="Genotype dosage from MaCH/Thunder">
+##FORMAT=<ID=GL,Number=.,Type=Float,Description="Genotype Likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##GATKCommandLine=<ID=FilterLiftedVariants,Version=2.8-1-g2a26ec9,Date="Fri Dec 06 14:45:49 EST 2013",Epoch=1386359149790,CommandLineOptions="analysis_type=FilterLiftedVariants input_file=[] read_buffer_size=null phone_home=AWS gatk_key=null tag=NA read_filter=[] intervals=null excludeIntervals=null interval_set_rule=UNION interval_merging=ALL interval_padding=0 reference_sequence=/humgen/gsa-hpprojects/GATK/data/ucsc.hg19/ucsc.hg19.fasta nonDeterministicRandomSeed=false disableDithering=false maxRuntime=-1 maxRuntimeUnits=MINUTES downsampling_type=BY_SAMPLE downsample_to_fraction=null downsample_to_coverage=1000 baq=OFF baqGapOpenPenalty=40.0 fix_misencoded_quality_scores=false allow_potentially_misencoded_quality_scores=false useOriginalQualities=false defaultBaseQualities=-1 performanceLog=null BQSR=null quantize_quals=0 disable_indel_quals=false emit_original_quals=false preserve_qscores_less_than=6 globalQScorePrior=-1.0 allow_bqsr_on_reduced_bams_despite_repeated_warnings=false validation_strictness=SILENT remove_program_records=false keep_program_records=false sample_rename_mapping_file=null unsafe=LENIENT_VCF_PROCESSING disable_auto_index_creation_and_locking_when_reading_rods=false num_threads=1 num_cpu_threads_per_data_thread=1 num_io_threads=0 monitorThreadEfficiency=false num_bam_file_handles=null read_group_black_list=null pedigree=[] pedigreeString=[] pedigreeValidationType=STRICT allow_intervals_with_unindexed_bam=false generateShadowBCF=false variant_index_type=DYNAMIC_SEEK variant_index_parameter=-1 logging_level=INFO log_to_file=null help=false version=false variant=(RodBinding name=variant source=/humgen/gsa-scr1/ebanks/Sting_unstable/.queue/tmp/0.244927669948996.sorted.vcf) out=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub no_cmdline_in_header=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub sites_only=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub bcf=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub filter_reads_with_N_cigar=false filter_mismatching_base_and_quals=false filter_bases_not_stored=false">
+##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral Allele, ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/pilot_data/technical/reference/ancestral_alignments/README">
+##INFO=<ID=AC,Number=.,Type=Integer,Description="Alternate Allele Count">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Global Allele Frequency based on AC/AN">
+##INFO=<ID=AFR_AF,Number=1,Type=Float,Description="Allele Frequency for samples from AFR based on AC/AN">
+##INFO=<ID=AMR_AF,Number=1,Type=Float,Description="Allele Frequency for samples from AMR based on AC/AN">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total Allele Count">
+##INFO=<ID=ASN_AF,Number=1,Type=Float,Description="Allele Frequency for samples from ASN based on AC/AN">
+##INFO=<ID=AVGPOST,Number=1,Type=Float,Description="Average posterior probability from MaCH/Thunder">
+##INFO=<ID=CIEND,Number=2,Type=Integer,Description="Confidence interval around END for imprecise variants">
+##INFO=<ID=CIPOS,Number=2,Type=Integer,Description="Confidence interval around POS for imprecise variants">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##INFO=<ID=ERATE,Number=1,Type=Float,Description="Per-marker Mutation rate from MaCH/Thunder">
+##INFO=<ID=EUR_AF,Number=1,Type=Float,Description="Allele Frequency for samples from EUR based on AC/AN">
+##INFO=<ID=HOMLEN,Number=.,Type=Integer,Description="Length of base pair identical micro-homology at event breakpoints">
+##INFO=<ID=HOMSEQ,Number=.,Type=String,Description="Sequence of base pair identical micro-homology at event breakpoints">
+##INFO=<ID=LDAF,Number=1,Type=Float,Description="MLE Allele Frequency Accounting for LD">
+##INFO=<ID=RSQ,Number=1,Type=Float,Description="Genotype imputation quality from MaCH/Thunder">
+##INFO=<ID=SNPSOURCE,Number=.,Type=String,Description="indicates if a snp was called when analysing the low coverage or exome alignment data">
+##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Difference in length between REF and ALT alleles">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=THETA,Number=1,Type=Float,Description="Per-marker Transition rate from MaCH/Thunder">
+##INFO=<ID=VT,Number=1,Type=String,Description="indicates what type of variant the line represents">
+##SelectVariants="analysis_type=SelectVariants input_file=[] read_buffer_size=null phone_home=STANDARD gatk_key=null read_filter=[] intervals=null excludeIntervals=null interval_set_rule=UNION interval_merging=ALL reference_sequence=/humgen/1kg/reference/human_g1k_v37.fasta rodBind=[] nonDeterministicRandomSeed=false downsampling_type=BY_SAMPLE downsample_to_fraction=null downsample_to_coverage=1000 baq=OFF baqGapOpenPenalty=40.0 performanceLog=null useOriginalQualities=false BQSR=null defaultBaseQualities=-1 validation_strictness=SILENT unsafe=null num_threads=1 num_cpu_threads=null num_io_threads=null num_bam_file_handles=null read_group_black_list=null pedigree=[] pedigreeString=[] pedigreeValidationType=STRICT allow_intervals_with_unindexed_bam=false logging_level=INFO log_to_file=null help=false variant=(RodBinding name=variant source=ALL.wgs.phase1_release_v2.20101123.snps_indels_sv_indel_cleaned.20120312.sites.vcf.gz) discordance=(RodBinding name= source=UNBOUND) concordance=(RodBinding name= source=UNBOUND) out=org.broadinstitute.sting.gatk.io.stubs.VCFWriterStub NO_HEADER=org.broadinstitute.sting.gatk.io.stubs.VCFWriterStub sites_only=org.broadinstitute.sting.gatk.io.stubs.VCFWriterStub sample_name=[] sample_expressions=null sample_file=null exclude_sample_name=[] exclude_sample_file=[] select_expressions=[VT == 'INDEL'] excludeNonVariants=false excludeFiltered=true restrictAllelesTo=ALL keepOriginalAC=true mendelianViolation=false mendelianViolationQualThreshold=0.0 select_random_number=0 select_random_fraction=0.0 remove_fraction_genotypes=0.0 selectTypeToInclude=[] keepIDs=null outMVFile=null filter_mismatching_base_and_quals=false"
+##contig=<ID=17,length=19000,assembly=hg19>
+##source=SelectVariants
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+17	356	.	AAC	A	301	PASS	AC=26;AF=0.01;AFR_AF=0.04;AMR_AF=0.01;AN=2184;AVGPOST=0.9973;ERATE=0.0004;LDAF=0.0121;RSQ=0.9131;THETA=0.0044;VT=INDEL
+17	7643	.	CCCCCAGCCCTCCAGGT	C	660	PASS	AC=1851;AF=0.85;AFR_AF=0.72;AMR_AF=0.86;AN=2184;ASN_AF=0.94;AVGPOST=0.9362;ERATE=0.0029;EUR_AF=0.85;LDAF=0.8305;RSQ=0.8350;THETA=0.0016;VT=INDEL
+17	9766	.	TTTTC	T	678	PASS	AC=436;AF=0.20;AFR_AF=0.33;AMR_AF=0.13;AN=2184;ASN_AF=0.28;AVGPOST=0.9958;ERATE=0.0005;EUR_AF=0.09;LDAF=0.1985;RSQ=0.9908;THETA=0.0005;VT=INDEL
+17	9775	.	TC	T	98	PASS	AC=48;AF=0.02;AFR_AF=0.05;AN=2184;ASN_AF=0.03;AVGPOST=0.9798;ERATE=0.0029;EUR_AF=0.0013;LDAF=0.0286;RSQ=0.7349;THETA=0.0028;VT=INDEL
+17	10715	.	A	ACCT	501	PASS	AC=724;AF=0.33;AFR_AF=0.78;AMR_AF=0.20;AN=2184;ASN_AF=0.28;AVGPOST=0.9854;ERATE=0.0003;EUR_AF=0.14;LDAF=0.3274;RSQ=0.9795;THETA=0.0010;VT=INDEL
+17	10719	.	C	CCTT	980	PASS	AC=722;AF=0.33;AFR_AF=0.78;AMR_AF=0.20;AN=2184;ASN_AF=0.28;AVGPOST=0.9836;ERATE=0.0006;EUR_AF=0.14;LDAF=0.3269;RSQ=0.9775;THETA=0.0074;VT=INDEL
+17	11528	.	T	TACA	706	PASS	AC=411;AF=0.19;AFR_AF=0.31;AMR_AF=0.13;AN=2184;ASN_AF=0.26;AVGPOST=0.9979;ERATE=0.0007;EUR_AF=0.09;LDAF=0.1876;RSQ=0.9939;THETA=0.0009;VT=INDEL
+17	13110	.	CTT	C	334	PASS	AC=309;AF=0.14;AFR_AF=0.46;AMR_AF=0.06;AN=2184;ASN_AF=0.03;AVGPOST=0.9957;ERATE=0.0006;EUR_AF=0.06;LDAF=0.1408;RSQ=0.9895;THETA=0.0008;VT=INDEL
+17	13115	.	TC	T	84	PASS	AC=271;AF=0.12;AFR_AF=0.41;AMR_AF=0.05;AN=2184;ASN_AF=0.03;AVGPOST=0.9752;ERATE=0.0013;EUR_AF=0.04;LDAF=0.1232;RSQ=0.9329;THETA=0.0007;VT=INDEL
+17	14420	.	TA	T	44	PASS	AC=62;AF=0.03;AFR_AF=0.08;AMR_AF=0.01;AN=2184;ASN_AF=0.03;AVGPOST=0.9940;ERATE=0.0010;EUR_AF=0.0040;LDAF=0.0310;RSQ=0.9214;THETA=0.0009;VT=INDEL
+17	15036	.	C	CT	16	PASS	AC=41;AF=0.02;AFR_AF=0.03;AMR_AF=0.02;AN=2184;ASN_AF=0.01;AVGPOST=0.9691;ERATE=0.0059;EUR_AF=0.02;LDAF=0.0274;RSQ=0.5399;THETA=0.0047;VT=INDEL
+17	16679	.	GC	G	377	PASS	AC=201;AF=0.09;AFR_AF=0.03;AMR_AF=0.14;AN=2184;ASN_AF=0.19;AVGPOST=0.9933;ERATE=0.0005;EUR_AF=0.04;LDAF=0.0937;RSQ=0.9724;THETA=0.0007;VT=INDEL
+17	16777	.	T	TG	568	PASS	AC=412;AF=0.19;AFR_AF=0.31;AMR_AF=0.13;AN=2184;ASN_AF=0.26;AVGPOST=0.9974;ERATE=0.0005;EUR_AF=0.09;LDAF=0.1891;RSQ=0.9938;THETA=0.0006;VT=INDEL
