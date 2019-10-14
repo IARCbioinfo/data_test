@@ -63,7 +63,7 @@
 ##INFO=<ID=WGT,Number=1,Type=Integer,Description="Weight, 00 - unmapped, 1 - weight 1, 2 - weight 2, 3 - weight 3 or more">
 ##INFO=<ID=WTD,Number=0,Type=Flag,Description="Is Withdrawn by submitter If one member ss is withdrawn by submitter, then this bit is set.  If all member ss' are withdrawn, then the rs is deleted to SNPHistory">
 ##INFO=<ID=dbSNPBuildID,Number=1,Type=Integer,Description="First dbSNP Build for RS">
-##contig=<ID=chr17,length=19000,assembly=hg19>
+##contig=<ID=chr17,length=19001,assembly=hg19>
 ##dbSNP_BUILD_ID=138
 ##fileDate=20130806
 ##phasing=partial
