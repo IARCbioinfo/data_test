@@ -1,0 +1,16 @@
+### STAR   --runMode genomeGenerate   --runThreadN 2   --genomeDir /data/gcs/mesomics/work/RNAseq/data_test/REF/ctat_small/GRCh38_gencode_v32_CTAT_lib_Dec062019.source.TP53/ctat_genome_lib_build_dir/ref_genome.fa.star.idx   --genomeFastaFiles /data/gcs/mesomics/work/RNAseq/data_test/REF/ctat_small/GRCh38_gencode_v32_CTAT_lib_Dec062019.source.TP53/17_7572000-7591000.fasta      --genomeSAindexNbases 7   --genomeChrBinNbits 16   --limitGenomeGenerateRAM 40419136213   --sjdbGTFfile /data/gcs/mesomics/work/RNAseq/data_test/REF/ctat_small/GRCh38_gencode_v32_CTAT_lib_Dec062019.source.TP53/TP53_small.gtf   --sjdbOverhang 150
+### GstrandBit 32
+versionGenome	2.7.1a
+genomeFastaFiles	/data/gcs/mesomics/work/RNAseq/data_test/REF/ctat_small/GRCh38_gencode_v32_CTAT_lib_Dec062019.source.TP53/17_7572000-7591000.fasta 
+genomeSAindexNbases	7
+genomeChrBinNbits	16
+genomeSAsparseD	1
+sjdbOverhang	150
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	/data/gcs/mesomics/work/RNAseq/data_test/REF/ctat_small/GRCh38_gencode_v32_CTAT_lib_Dec062019.source.TP53/TP53_small.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	67041 169137
