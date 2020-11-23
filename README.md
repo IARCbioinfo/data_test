@@ -51,3 +51,4 @@ The VCF folder contains multi-sample variant calls in the VCF format
   |-----------|---------------|-----------------|
   | Matthieu Foll*    | follm@iarc.fr | Developer to contact for support |
   | Nicolas Alcala    | alcalan@iarc.fr | Developer |
+  | Tiffany Delhomme  | | Developer |
