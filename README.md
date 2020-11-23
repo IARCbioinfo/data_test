@@ -1,6 +1,6 @@
 # data test
 ## Small datasets to test IARCbioinfo's pipelines
-The data consists of next-generation sequencing data (subsets of whole-exome sequencing) from a few individuals from the 1000 genomes project, and reference genome files necessary to run several softwares. The data is subseted to the TP53 gene region of chromosome 17.
+The data consists of next-generation sequencing data (subsets of whole-exome sequencing with reads ~70bp; Illumina Solexa) from a few individuals from the 1000 genomes project, and reference genome files necessary to run several softwares. The data is subseted to the TP53 gene region of chromosome 17.
 
 ## Folder structure
 
