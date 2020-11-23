@@ -39,7 +39,7 @@ The **REF** folder contains reference files of different sizes (17.fasta and TP5
 - files \*.fasta.0123, .fasta.amb, .fasta.ann, .fasta.bwt, .fasta.bwt.2bit.64, .fasta.bwt.8bit.32, .fasta.fai, .fasta.pac, .fasta.sa are bwa and bwa-mem2 indices
 - file 17.dict is a dictionary file, for example used by GATK
 - files dbsnp_138.17_7572000-7591000_nochr.vcf.gz (and its index .tbi) and dbsnp_138.17_7572000-7591000.vcf.gz and related files are known germline variant calls from the DBSNP database, used for example in GATK worflows, respectively for references where chromosome names are without the "chr" prefix (chromosome 17 is then just named "17") and with the prefix (chromosome 17 is named "chr17")
-- The **REF/ctat_genome_lib_build_dir_TP53** corresponds to a subset of the Trinity Cancer Transcriptome Analysis Toolkit (CTAT) reference genome bundle, that can be used to run STAR and STAR-Fusion (e.g., to test IARCbioinfo/RNAseq-nf and IARCbioinfo/RNAseq-fusion-nf), and notably contains annotations (file ref_annot.gtf) and all STAR indices in subfolder **ref_genome.fa.star.idx**
+- The **REF/ctat_genome_lib_build_dir_TP53** corresponds to a subset of the [Trinity Cancer Transcriptome Analysis Toolkit](https://github.com/NCIP/Trinity_CTAT/wiki) (CTAT) reference genome bundle, that can be used to run STAR and STAR-Fusion (e.g., to test IARCbioinfo/RNAseq-nf and IARCbioinfo/RNAseq-fusion-nf), and notably contains annotations (file ref_annot.gtf) and all STAR indices in subfolder **ref_genome.fa.star.idx**
 
 
 ### VCF folder
